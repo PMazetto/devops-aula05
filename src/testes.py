@@ -7,7 +7,7 @@ jogo = jogovelha.inicializar()
 
 if len(jogo) !=3:
 	erroInicializar = True
-else
+else:
 	for linha in jogo:
 		if len(linha) !=3:
 			erroInicializar=True
@@ -18,6 +18,6 @@ else
 
 if erroInicializar:
 	sys.exit(1)
-else
+else:
 	sys.exit(0)
 	
