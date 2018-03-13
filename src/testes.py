@@ -11,7 +11,7 @@ else:
 	for linha in jogo:
 		if len(linha) !=3:
 			erroInicializar=True
-		else
+		else:
 			for elemento in linha:
 				if elemento != '.':
 					erroInicializar = True
